@@ -1,0 +1,43 @@
+.services {
+  .services-content {
+    min-height: 860px;
+    width: 100%;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .rooms {
+      //   width: 400px;
+      min-height: 760px;
+      background-image: url("../images/rooms-img.png");
+    }
+    .small-cards {
+      //   width: 840px;
+      min-height: 760px;
+      gap: 40px;
+      div {
+        height: 360px;
+        // width: 400px;
+        background-position: center;
+        background-size: cover;
+      }
+      .dining {
+        background-image: url("../images/dining-img.png");
+      }
+      .meetings {
+        background-image: url("../images/meetings-img.png");
+      }
+      .facillities {
+        background-image: url("../images/facillities-img.png");
+      }
+      .wedding {
+        background-image: url("../images/wedding-img.png");
+      }
+    }
+    h3 {
+      color: white;
+      font-weight: 700;
+    }
+  }
+}
