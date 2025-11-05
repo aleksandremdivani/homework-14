@@ -1,0 +1,50 @@
+.special-offers{
+    .special-offers-content{
+        flex-direction: column;
+        .row{
+            .offers-card{
+                height: 547px;
+                max-width: 400px;
+                border: 1px green solid;
+                display: flex;
+                flex-direction: column;
+                padding: 20px 20px 49px;
+                border-radius: 42px;
+                row-gap: 20px;
+                .img-container{
+                    height: 280px;
+                    max-width: 360px;
+                    background-size: cover;
+                }
+                .honeymoon{
+                    background-image: url("../images/honeymoon-img.png");
+                }
+                .meetings{
+                    background-image: url("../images/meetings-img.png");
+                }
+                .romantic-dining{
+                    background-image: url("../images/romantic-dining-img.png");
+                }
+                .card-text{
+                   flex-direction: column;
+                   div{
+                    row-gap: 20px;
+                    span{
+                        font-weight: 700;
+                        font-size: 36px;
+                    }
+                   }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 768px){
+    .offers-card{
+        max-width: 100% !important;
+        // align-items: center;
+        .img-container{
+            max-width: 100% !important;
+        }
+    }
+}
